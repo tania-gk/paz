@@ -1,6 +1,7 @@
 *{
   padding:0;
   margin:0;
+  box-sizing: border-box;
 }
 
 body {
@@ -130,7 +131,7 @@ li.dropdown {
 }
 
 .page-body{
-  width:900px;
+  width:950px;
   margin: auto;
 }
 
@@ -140,16 +141,49 @@ li.dropdown {
   clear: both;
 }
 
+.first-row{
+  box-sizing: border-box;
+  height: 300px;
+}
+
 div.gallery {
-    margin: 5px;
-    padding-top: 15%;
+    /*padding-top: 20%;*/
+    padding: 20% 10px 2px 15px;
     border: 1px solid #ccc;
     border-bottom-right-radius: 2em;
     float: right;
     width: 33.3%;
+    font-size: 12px;
     background-color: grey;
 /*    opacity: 0.5;*/
     color:white;
+}
+
+.gallery h4{
+  background: grey;
+  opacity: 0.85;
+}
+
+.gallery p{
+  padding-bottom: 5px;
+  background: grey;
+  opacity: 0.85;
+}
+
+.read-more{
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background: grey;
+  opacity: 0.85;
+  border-bottom-right-radius: 2em;  
+  text-align: left;
+  display: block;
+}
+
+.read-more a{
+  color: white;
+  text-decoration: none;
+  font-size: 14;
 }
 
 div.gallery:hover {
@@ -164,21 +198,21 @@ div.gallery::after {
 
 #first{
   background: url("../images/1908364606615453350.jpg") no-repeat;
-background-size: 100% 100%;
-      height:auto;
+  background-size: 100% 100%;
+  height:100%;
 }
 
 
 #second{
   background: url("../images/Picture-046410251500.jpg") no-repeat;
 background-size: 100% 100%;
-      height:auto;
+      height:100%;
 }
 
 #third{
   background: url("../images/╫ñ╫צ╫º╫¿_-291_354410564000.jpg") no-repeat center;
   background-size: 100% 100%;
-  height:auto;
+  height:100%;
 }
 
 footer{
