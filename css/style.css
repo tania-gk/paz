@@ -48,6 +48,7 @@ a.search-button{
 .top-menu{
   text-align: center;
   margin:auto;
+  display:relative;
 }
 
 .top-menu li a.home{
@@ -63,11 +64,13 @@ ul {
 }
 
 li {
+  display:absolute;
   float: right;
   font-family: Arial;
   font-size: 12px;
   border-left: 1px solid #e6e6e6;
-  margin:15px;
+  margin:11px;
+  height: 31px;
 }
 
 li a.logo{
